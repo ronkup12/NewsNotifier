@@ -3,7 +3,7 @@ import threading
 from datetime import datetime, timedelta
 from twilio.rest import Client
 from twilio.twiml.messaging_response import MessagingResponse
-from ynet_crawler import YnetCrawler
+from YnetCrawler.YnetCrawler import YnetCrawler
 from flask import Flask, request
 
 
